@@ -8,6 +8,40 @@ _Question: The effect of `=` seems equivalent to `<-`. I'm already used to `=`, 
 
 ---
 
-I know many other programming languages use `=` to assign values, and it's really intuitive to do that in R as well.
+Here is my personal opinion: __Use `<-`__. Let me tell you my reasons.
 
-However, here is my personal opinion: __use `<-`__. Let me tell you why.
+1. `<<-`, which looks more like `<-`, is needed when assigning values to the parent environment.<br>
+This is probably the most important reason. People will need this functionality sometime. For the demonstration of using `<<-`, please refer to [my lexical scoping article](lexical_scoping.md).
+
+2. `<-` has higher precedence than `=` does in R syntax.<br>
+Consider:
+```r
+a <- b <- 5
+a; b
+# 5
+# 5
+
+a = b <- 10
+a; b
+# 10
+# 10
+
+a <- b = 15
+# Error in a <- b = 15: could not find function "<-<-"
+```
+Why doesn't the final case work? [This thread](http://stackoverflow.com/questions/1741820/assignment-operators-in-r-and) on Stack Overflow provides more detailed elaboration.
+
+3. In most cases of assigning values, `=` is equivalent to `<-`, but `<-` is even more general than `=`.<br>
+Consider the examples below:
+```r
+sum(x = c(5, 8, 7))
+# 20
+x
+# Error: object 'x' not found
+
+sum(x <- c(5, 8, 7))
+# 20
+x
+# 5 8 7
+```
+In the first case, x exists only in the `sum` function scope, while in the second case, x is also declared in Global Environment. Although we don't often need this kind of declaration.
