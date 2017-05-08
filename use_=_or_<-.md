@@ -8,7 +8,7 @@ _Question: The effect of `=` seems equivalent to `<-`. I'm already used to `=`, 
 
 ---
 
-Here is my personal opinion: __Use `<-`__. Let me tell you my reasons.
+__I prefer `<-`__. Let me tell you my reasons.
 
 1. `<<-`, which looks more like `<-`, is needed when assigning values to the parent environment.<br>
 This is probably the most important reason. People will need this functionality sometime. For the demonstration of using `<<-`, please refer to [my lexical scoping article](lexical_scoping.md).
