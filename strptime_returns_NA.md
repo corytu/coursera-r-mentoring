@@ -1,4 +1,4 @@
-When using strptime function in R, by default, R recognizes strings (and then converts them into time format) based on __your current locale setting of your OS__.
+When using `strptime` function in R, by default, R recognizes strings (and then converts them into time format) based on __your current locale setting of your OS__.
 
 Hence, to resolve the NA issue, you have to change the locale options of R, or otherwise change that of your OS. According to [this StackOverflow post](http://stackoverflow.com/questions/16347731/how-to-change-the-locale-of-r-in-rstudio), you can do that by:
 ```r
