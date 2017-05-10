@@ -43,3 +43,19 @@ f <- function(a){
 }
 ```
 If you try f(1) again, you'll see 25 and 26 as the answers. The __<<- pushes the assignment of v1 one level up__ to its parent environment, which is f. As a result, f does have v1 when it computes a + v1, and f will use that instead of seeking it in its parent environment.
+
+---
+
+_Challenge: What will be returned when `f(3)` is executed? (DON'T run it in R console. Reason out your answer!)_
+```r
+f <- function(x) {
+  g <- function(y) {
+    y + z
+  }
+  z <- 4
+  x + g(x)
+}
+
+z <- 10
+f(3)
+```
