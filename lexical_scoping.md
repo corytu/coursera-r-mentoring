@@ -59,3 +59,5 @@ f <- function(x) {
 z <- 10
 f(3)
 ```
+
+Hint: You probably need the concepts of [constructor functions](constructor_functions.md).
