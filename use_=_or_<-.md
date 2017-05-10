@@ -31,7 +31,7 @@ a <- b = 15
 ```
 
 3. In most cases of assigning values, `=` is equivalent to `<-`, but `<-` is even more general than `=`.<br>
-In the first following case, x exists only in the `sum` function scope, while in the second case, x is also declared in Global Environment. Although we don't often need this kind of declaration. Consider the examples below:
+In the first following case, x exists only in the `sum` function scope, while in the second case, x is also declared in Global Environment. Although we don't often need this kind of declaration. Still, using `=` when passing arguments and `<-` when assigning values, as well as proper indents, can make your codes look more compilable. Consider the examples below:
 ```r
 sum(x = c(5, 8, 7))
 # 20
