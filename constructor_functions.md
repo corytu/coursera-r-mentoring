@@ -59,5 +59,3 @@ cube(3)
 ```
 
 The answer is 27.
-
-Further discussions are welcome. :)
