@@ -1,2 +1,2 @@
 # Coursera R Mentoring
-## Collecting my helping articles when mentoring "R Programming" on Coursera
+_Mentoring records and my helping articles on Coursera_
