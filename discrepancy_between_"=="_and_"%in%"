@@ -1,0 +1,9 @@
+Consider this example:
+
+```
+x <- rep(1:5, times = 2)
+x == 1:3
+# TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+x %in% 1:3
+# TRUE  TRUE  TRUE FALSE FALSE  TRUE  TRUE  TRUE FALSE FALSE
+```
