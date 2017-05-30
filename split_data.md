@@ -31,3 +31,5 @@ The problem in the first method is that the length of f is only 3, and that leng
 |         5.4  | virginica  |
 
 In fact, however, these first six rows above are all setosa. Check it with `head(iris)`. Also, compare the difference between `split(iris$Sepal.Length, iris$Species)` and `split(iris$Sepal.Length, f)`.
+
+For more information about factor levels, please refer to [factor levels and labels](factor_levels_and_labels.md).
