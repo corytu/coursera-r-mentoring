@@ -1,6 +1,8 @@
 # Coursera R Mentoring
 _Mentoring records and my helping articles on Coursera (Last update: May 30, 2017)_
 
+Some questions have been raised repeatedly in the Coursera R Programming course forum. Here I organized some of those questions and collected my replies to them.
+
 ## Getting Started
 * [use "=" or "<-"](use_=_or_<-.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
 * [strptime returns NAs](strptime_returns_NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
