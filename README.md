@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: May 30, 2017)_
+_Mentoring records and my helping articles on Coursera (Under construction) (Last update: May 30, 2017)_
 
 Some questions have been raised repeatedly in the Coursera R Programming course forum. Here I organized some of those questions and collected my replies to them.
 
