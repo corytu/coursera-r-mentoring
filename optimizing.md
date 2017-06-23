@@ -45,6 +45,8 @@ params <- fixed
 params[!fixed]
 params[!fixed] <- 10
 # Which of params is substituted with 10?
+# Where does the 1 come from?
+# Hint: Try as.numeric(TRUE), and review the coercion concepts.
 
 # And what if:
 fixed <- c(FALSE, 20)
