@@ -4,7 +4,7 @@ Hence, to resolve the NA issue, you have to change the locale options of R, or o
 ```r
 Sys.setlocale("LC_ALL","English")
 ```
-Or, you can also change "LC_TIME" instead of chaging "LC_ALL", which alters all locale-related settings.
+Or, you can also change "LC_TIME" instead of chaging "LC_ALL". The latter alters all locale-related settings.
 ```r
 Sys.setlocale("LC_TIME", "en")          # Solaris 7: details are OS-dependent
 Sys.setlocale("LC_TIME", "en_US.utf8")  # Modern Linux etc
