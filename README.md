@@ -10,7 +10,7 @@ Please note that these articles are not intended to be self-sufficient resources
 3. [R語言翻轉教室](http://datascienceandr.org) (only for Mandarin-speaking users)
 
 ## Getting started
-* [use "=" or "<-"](use%20=%20or%20<-.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
+* [use "<-" or "="](use%20=%20or%20<-.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
 * [strptime returns NAs](strptime%20returns%20NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
 
 ## Data preprocessing
