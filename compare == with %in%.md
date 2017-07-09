@@ -18,6 +18,7 @@ _Question: Why does the results differ from each other?_
 People need to compare values across objects every now and then. In this case, let's say we want to find out which ones of `x` is 1, 2, or 3. Intuitively, we will do `x == 1:3`, but it is WRONG. Only the first three elements return TRUE even though we know that there is another set of 1:3. (Of course you can do `x == 1 | x == 2 | x == 3` but imagine when you have many values to be compared with...)
 
 The reason for that unexpected output is the vectorization characteristic of R. When we do `x == 1:3`, R does the following things:
+
 * Is x[1:3] == 1:3 respectively? (TRUE TRUE TRUE)
 * Is x[4:6] == 1:3 respectively? (FALSE FALSE FALSE)
 * Is x[7:9] == 1:3 respectively? (FALSE FALSE FALSE)

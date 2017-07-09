@@ -5,6 +5,7 @@ _Question: `paste` function has two arguments besides the ellipsis: "sep" and "c
 __The short answer is: "sep" separates the terms, and "collapse" separates the results.__
 
 Let's go through an easy example to see what that means.
+
 ```r
 x <- letters[1:3]
 y <- letters[24:26]
