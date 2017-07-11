@@ -38,4 +38,4 @@ relevel(species, "versicolor")
 levels(species) <- c("versicolor", "setosa", "virginica")
 ```
 
-The latter will only change the "names" so now what is called "versicolor" is actually "setosa".
+The latter will only change the "names", so now what is called "versicolor" is actually corresponded with original "setosa".
