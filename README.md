@@ -17,7 +17,7 @@ Please note that these articles are not intended to be self-sufficient resources
 * [Factor levels and labels](factor-levels-and-labels.md): Categorical data are called "factor" in R. This article explains what are factor levels and factor labels respectively.
 * [Split data](split-data.md): Data can be splited with specified categories. However the length of the factor variables matters.
 * [Paste strings](paste-arguments.md): Pasting various strings together is a plausible way to create variables. Here I introduce the two critical arguments, sep and collapse, of `paste` function in R.
-* [Argument "MARGIN" for apply](apply-margin.md): `apply` allows users to execute a function over dimensions of matrices or arrays. What if we assign multiple dimensions at a time?
+* [Argument MARGIN for apply](apply-margin.md): `apply` allows users to execute a function over dimensions of matrices or arrays. What if we assign multiple dimensions at a time?
 
 ## Comparison and ranking of data
 * [Difference between "==" and "%in%"](compare-twoequals-with-in.md): Both `==` and `%in%` are often used to find matches in data. Yet, they have one difference when we have multiple inputs to be compared in parallel with the target.
