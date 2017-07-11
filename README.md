@@ -24,7 +24,7 @@ Please note that these articles are not intended to be self-sufficient resources
 * [Order, rank, and sort](order-rank-sort.md): These three functions are commonly used to make data into orders, but they are confusing with one another. This article tries to offer clarifications.
 
 ## Lexical scoping of R language
-This section is for advanced R users. If you are interested in more advanced mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) by Hadley Wickham. Here I provided three related questions for the materials of R Programming course.
+This section is for advanced R users. If you are interested in more detailed mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) by Hadley Wickham. Here I provided three related questions for the materials of R Programming course.
 
 * [Lexical scoping](lexical-scoping.md): This article demonstrates what would happen if an object is defined not only outside but also inside the function.
 * [Constructor functions](constructor-functions.md): With knowledge of lexical scoping, we are able to write a function which creates other functions.
