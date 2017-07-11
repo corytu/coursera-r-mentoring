@@ -10,7 +10,7 @@ Please note that these articles are not intended to be self-sufficient resources
 3. [R語言翻轉教室](http://datascienceandr.org) (only for Mandarin-speaking users)
 
 ## Getting started
-* [use "<-" or "="](use=or<-.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
+* [use "<-" or "="](use%3Dor%3C-.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
 * [strptime returns NAs](strptime-returns-NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
 
 ## Data preprocessing
@@ -19,7 +19,7 @@ Please note that these articles are not intended to be self-sufficient resources
 * [paste strings](paste-arguments.md): Pasting various strings together is a plausible way to create variables. Here I introduce the two critical arguments, sep and collapse, of `paste` function in R.
 
 ## Comparison and ranking of data
-* [Difference between "==" and "%in%"](compare%20%3D%3D%20with%20%25in%25.md): Both `==` and `%in%` are often used to find matches in data. Yet, they have one difference when we have multiple inputs to be compared in parallel with the target.
+* [Difference between "==" and "%in%"](compare%3D%3Dwith%25in%25.md): Both `==` and `%in%` are often used to find matches in data. Yet, they have one difference when we have multiple inputs to be compared in parallel with the target.
 * [Order, rank, and sort](order-rank-sort.md): These three functions are commonly used to make data into orders, but they are confusing with one another. This article tries to offer clarifications.
 
 ## Lexical scoping of R language
