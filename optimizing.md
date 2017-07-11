@@ -1,5 +1,3 @@
-[Construction function questions](https://www.coursera.org/learn/r-programming/discussions/weeks/2/threads/0YK_wlcBEeeMcg4GWtvWkg)
-
 _Questions:_
 
 ```r
@@ -58,4 +56,4 @@ params[!fixed]
 
 You need the curiosity to figure all these questions. Cheers!!
 
-Yu-Zhen
+[The original question on Coursera](https://www.coursera.org/learn/r-programming/discussions/weeks/2/threads/0YK_wlcBEeeMcg4GWtvWkg)
