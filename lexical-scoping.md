@@ -1,4 +1,4 @@
-Given a sudo code below:
+Given a pseudo code below:
 
 ```r
 v1 = 5
@@ -13,7 +13,7 @@ _Question: Will function f use v1 = 5 or v1 = 25 to compute a = a + v1?_
 
 ----
 
-Let me revise the sudo code a little bit:
+Let me revise the pseudo code a little bit:
 
 ```r
 v1 = 5
