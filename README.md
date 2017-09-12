@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: July 12, 2017)_
+_Mentoring records and my helping articles on Coursera (Last update: September 13, 2017)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -10,6 +10,7 @@ Please note that these articles are not intended to be self-sufficient resources
 3. [R語言翻轉教室](http://datascienceandr.org) (only for Mandarin-speaking users)
 
 ## Getting started
+* [Use R or RStudio](R-or-RStudio.md): RStudio can't be executed without R. Still they have different advantages.
 * [Use "<-" or "="](use-equal-or-arrow.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
 * [Why strptime returns NAs](strptime-returns-NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
 
