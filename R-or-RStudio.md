@@ -1,0 +1,3 @@
+It really depends on your preference to the interfaces of them. Keep in mind that RStudio is just an [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) of R language. Hence, you still need to have R installed before using RStudio. Other than that, the capabilities of R and RStudio are the same in terms of computation.
+
+I think the advantages of RStudio are that it has a comprehensive GUI, and also a well-designed built-in editor for writing R scripts. As a result, most of the R users, including myself, choose RStudio as their working environment. Still, the plain R interface is good at displaying lots of data on the screen at once, so sometimes I would switch back to R to have a better look of my tables or results.
