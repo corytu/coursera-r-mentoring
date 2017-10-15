@@ -1,1 +1,1 @@
-It is known that user names with Chinese characters would cause errors in RStudio, but R can still be executed normally. Try the steps in [this tutorial](https://github.com/wush978/DataScienceAndR/wiki/Windows中文使用者與Rstudio的環境變數調校) and see if it helps.
+It is known that user names with Chinese characters would cause errors in RStudio, but R can still be executed normally. Try the steps in [this tutorial](https://github.com/wush978/DataScienceAndR/wiki/Windows中文使用者與Rstudio的環境變數調校) if that happens.
