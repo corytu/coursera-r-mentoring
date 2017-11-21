@@ -26,7 +26,7 @@ x * t(x)
 _Question:_<br>
 1. Is x a "mathematical" vector?
 2. If not, why `t(x)` worked?
-3. Why `x * t(x)` showed a weird result?
+3. Why does `x * t(x)` show a weird result?
 
 ----
 
