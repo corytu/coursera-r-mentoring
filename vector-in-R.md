@@ -40,7 +40,7 @@ That being said, you can still create a "mathematical vector" by creating "a mat
 R_vector <- 1:3
 class(R_vector)
 # "integer"
-# Which means R_vector is a interger vector
+# Which means R_vector is an interger vector
 
 col_vector <- matrix(1:3)
 class(col_vector)
