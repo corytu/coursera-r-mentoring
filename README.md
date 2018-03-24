@@ -17,6 +17,7 @@ Please note that these articles are not intended to be self-sufficient resources
 
 ## Data preprocessing
 * ["Vectors" in R](vector-in-R.md): Vectors in R don't have mathematical sense. Yet "mathematical vectors" and matrix operations can still be performed.
+* [Number types](integer-numeric.md): R has class "integer" and "numeric", they are different in memory management and capability to be manipulated.
 * [Factor levels and labels](factor-levels-and-labels.md): Categorical data are called "factor" in R. This article explains what are factor levels and factor labels respectively.
 * [Split data](split-data.md): Data can be splited with specified categories. However the length of the factor variables matters.
 * [Paste strings](paste-arguments.md): Pasting various strings together is a plausible way to create variables. Here I introduce the two critical arguments, sep and collapse, of `paste` function in R.
