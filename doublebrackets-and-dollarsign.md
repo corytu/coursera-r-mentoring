@@ -1,3 +1,5 @@
+Data frames have several extract operators for subsetting data.
+
 _Question: I found on SO that the `$` operator cannot work with variables that are not static for subsetting . I would like a more in depth answer._
 
 ----
