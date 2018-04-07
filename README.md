@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: November 21, 2017)_
+_Mentoring records and my helping articles on Coursera (Last update: April 7, 2018)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -15,9 +15,11 @@ Please note that these articles are not intended to be self-sufficient resources
 * [Use "<-" or "="](use-equal-or-arrow.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
 * [Why strptime returns NAs](strptime-returns-NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
 
-## Data preprocessing
+## Data types
 * ["Vectors" in R](vector-in-R.md): Vectors in R don't have mathematical sense. Yet "mathematical vectors" and matrix operations can still be performed.
 * [Number types](integer-numeric.md): R has class "integer" and "numeric", they are different in memory management and capability to be manipulated.
+
+## Data preprocessing
 * [Factor levels and labels](factor-levels-and-labels.md): Categorical data are called "factor" in R. This article explains what are factor levels and factor labels respectively.
 * [Split data](split-data.md): Data can be splited with specified categories. However the length of the factor variables matters.
 * [Paste strings](paste-arguments.md): Pasting various strings together is a plausible way to create variables. Here I introduce the two critical arguments, sep and collapse, of `paste` function in R.
