@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: April 7, 2018)_
+_Mentoring records and my helping articles on Coursera (Last update: April 9, 2018)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -8,6 +8,8 @@ Please note that these articles are not intended to be self-sufficient resources
 1. [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) of JHU on Coursera (free auditing)
 2. [swirl package](http://swirlstats.com) of R (R and swirl installation required)
 3. [R語言翻轉教室](http://datascienceandr.org) (only for Mandarin-speaking users)
+
+Besides, RStudio and R users around the world have contributed many cheatsheets which can be referred to anytime. Check [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) for them.
 
 ## Getting started
 * [Use R or RStudio](R-or-RStudio.md): RStudio can't be executed without R. Still they have different advantages.
