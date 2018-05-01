@@ -19,9 +19,9 @@ People need to compare values across objects every now and then. In this case, l
 
 The reason for that unexpected output is the vectorization characteristic of R. When we do `x == 1:3`, R does the following things:
 
-* Is x[1:3] == 1:3 respectively? (TRUE TRUE TRUE)
-* Is x[4:6] == 1:3 respectively? (FALSE FALSE FALSE)
-* Is x[7:9] == 1:3 respectively? (FALSE FALSE FALSE)
-* Is x[10:12] == 1:3? (All FALSE but there's no x[11] and x[12] => warnings)
+* Are `x[1:3]` `1:3` respectively? (TRUE, TRUE, TRUE)
+* Are `x[4:6]` `1:3` respectively? (FALSE, FALSE, FALSE)
+* Are `x[7:9]` `1:3` respectively? (FALSE, FALSE, FALSE)
+* Are `x[10:12]` `1:3`? (All FALSE but there's no `x[11]` and `x[12]` => warnings)
 
-Alternatively we can do `x %in% 1:3` because it checks every single element of `x` to find whether the element is within 1:3.
+Alternatively we can do `x %in% 1:3` because it checks every single element of `x` to find whether the element is within `1:3`.
