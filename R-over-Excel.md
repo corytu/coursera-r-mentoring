@@ -4,7 +4,7 @@ _Question: I feel that a large bulk of work can be done in Excel sheets much fas
 
 It is true that Excel can also do many analyses and create visualization. I think "which is faster" really depends on what you need in your missions, and also how skilled you are in these tools though.
 
-Here I would list some advantages of R over Excel on my point of view.
+Here I would list some advantages of R over Excel from my point of view.
 
 1. R is available on all platforms including MS Windows, MacOS, and Linux, which makes it much easier to transfer data and analyzed results. On the other hand, Excel does the best only on MS Windows, not to mention it has compatibility issues between xls and xlsx.
 2. R handles "big data" like millions of rows or separated files from multiple resources much more efficiently than Excel does in terms of not only cleansing and organizing data, and also computation.
