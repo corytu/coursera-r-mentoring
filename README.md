@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: April 9, 2018)_
+_Mentoring records and my helping articles on Coursera (Last update: May 19, 2018)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -12,6 +12,7 @@ Please note that these articles are not intended to be self-sufficient resources
 Besides, RStudio and R users around the world have contributed many cheatsheets which can be referred to anytime. Check [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) for them.
 
 ## Getting started
+* [Why R but not Excel](R-over-Excel.md): Here I listed some advantages of R over Excel from my point of view.
 * [Use R or RStudio](R-or-RStudio.md): RStudio can't be executed without R. Still they have different advantages.
 * [Chinese user names cause errors](Chinese-user-names.md): If your computer user name comprise Chinese characters and you get errors when running RStudio, please refer to this article.
 * [Use "<-" or "="](use-equal-or-arrow.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
