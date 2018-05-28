@@ -12,30 +12,30 @@ Please note that these articles are not intended to be self-sufficient resources
 Besides, RStudio and R users around the world have contributed many cheatsheets which can be referred to anytime. Check [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) for them.
 
 ## Getting started
-* [Why R but not Excel](R-over-Excel.md): Here I listed some advantages of R over Excel from my point of view.
-* [Use R or RStudio](R-or-RStudio.md): RStudio can't be executed without R. Still they have different advantages.
-* [Chinese user names cause errors](Chinese-user-names.md): If your computer user name comprise Chinese characters and you get errors when running RStudio, please refer to this article.
-* [Use "<-" or "="](use-equal-or-arrow.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
-* [Why strptime returns NAs](strptime-returns-NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
+* [Why R but not Excel](articles/R-over-Excel.md): Here I listed some advantages of R over Excel from my point of view.
+* [Use R or RStudio](articles/R-or-RStudio.md): RStudio can't be executed without R. Still they have different advantages.
+* [Chinese user names cause errors](articles/Chinese-user-names.md): If your computer user name comprise Chinese characters and you get errors when running RStudio, please refer to this article.
+* [Use `<-` or `=`](articles/use-equal-or-arrow.md): Using either `<-` or `=` to assign values in R is a question related to personal preferences. I shared my own opinions here.
+* [Why `strptime` returns NAs](articles/strptime-returns-NA.md): Languages from different system locales may cause some abnormalities. However we can change the locale settings within R scope without changing the whole OS.
 
 ## Data types
-* ["Vectors" in R](vector-in-R.md): Vectors in R don't have mathematical sense. Yet "mathematical vectors" and matrix operations can still be performed.
-* [Number types](integer-numeric.md): R has class "integer" and "numeric", they are different in memory management and capability to be manipulated.
+* ["Vectors" in R](articles/vector-in-R.md): Vectors in R don't have mathematical sense. Yet "mathematical vectors" and matrix operations can still be performed.
+* [Number types](articles/integer-numeric.md): R has class "integer" and "numeric", they are different in memory management and capability to be manipulated.
 
 ## Data preprocessing
-* [Difference between "\[\[\]\]" and "$"](doublebrackets-and-dollarsign.md): There are various extract operators in R. In this short paragragh I explain the difference between `[[]]` and `$`, and provide a link to an even more comprehensive article written by another Community Mentor.
-* [Factor levels and labels](factor-levels-and-labels.md): Categorical data are called "factor" in R. This article explains what are factor levels and factor labels respectively.
-* [Split data](split-data.md): Data can be splited with specified categories. However the length of the factor variables matters.
-* [Paste strings](paste-arguments.md): Pasting various strings together is a plausible way to create variables. Here I introduce the two critical arguments, sep and collapse, of `paste` function in R.
-* [Argument MARGIN for apply](apply-margin.md): `apply` allows users to execute a function over dimensions of matrices or arrays. What if we assign multiple dimensions at a time?
+* [Difference between `[[]]` and `$`](articles/doublebrackets-and-dollarsign.md): There are various extract operators in R. In this short paragragh I explain the difference between `[[]]` and `$`, and provide a link to an even more comprehensive article written by another Community Mentor.
+* [Factor levels and labels](articles/factor-levels-and-labels.md): Categorical data are called "factor" in R. This article explains what are factor levels and factor labels respectively.
+* [Split data](articles/split-data.md): Data can be splited with specified categories. However the length of the factor variables matters.
+* [Paste strings](articles/paste-arguments.md): Pasting various strings together is a plausible way to create variables. Here I introduce the two critical arguments, sep and collapse, of `paste` function in R.
+* [Argument MARGIN for `apply`](articles/apply-margin.md): `apply` allows users to execute a function over dimensions of matrices or arrays. What if we assign multiple dimensions at a time?
 
 ## Comparison and ranking of data
-* [Difference between "==" and "%in%"](compare-twoequals-with-in.md): Both `==` and `%in%` are often used to find matches in data. Yet, they have one difference when we have multiple inputs to be compared in parallel with the target.
-* [Order, rank, and sort](order-rank-sort.md): These three functions are commonly used to make data into orders, but they are confusing with one another. This article tries to offer clarifications.
+* [Difference between `==` and `%in%`](articles/compare-twoequals-with-in.md): Both `==` and `%in%` are often used to find matches in data. Yet, they have one difference when we have multiple inputs to be compared in parallel with the target.
+* [Order, rank, and sort](articles/order-rank-sort.md): These three functions are commonly used to make data into orders, but they are confusing with one another. This article tries to offer clarifications.
 
 ## Lexical scoping of R language
 This section is for advanced R users. If you are interested in more detailed mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) by Hadley Wickham. Here I provided three related questions for the materials of R Programming course.
 
-* [Lexical scoping](lexical-scoping.md): This article demonstrates what would happen if an object is defined not only outside but also inside the function.
-* [Constructor functions](constructor-functions.md): With knowledge of lexical scoping, we are able to write a function which creates other functions.
-* [Optimizing parameters](optimizing.md): Another example showing how lexical scoping can help you optimize your interested parameters.
+* [Lexical scoping](articles/lexical-scoping.md): This article demonstrates what would happen if an object is defined not only outside but also inside the function.
+* [Constructor functions](articles/constructor-functions.md): With knowledge of lexical scoping, we are able to write a function which creates other functions.
+* [Optimizing parameters](articles/optimizing.md): Another example showing how lexical scoping can help you optimize your interested parameters.
