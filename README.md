@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: May 19, 2018)_
+_Mentoring records and my helping articles on Coursera (Last update: May 28, 2018)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -32,6 +32,9 @@ Besides, RStudio and R users around the world have contributed many cheatsheets 
 ## Comparison and ranking of data
 * [Difference between `==` and `%in%`](articles/compare-twoequals-with-in.md): Both `==` and `%in%` are often used to find matches in data. Yet, they have one difference when we have multiple inputs to be compared in parallel with the target.
 * [Order, rank, and sort](articles/order-rank-sort.md): These three functions are commonly used to make data into orders, but they are confusing with one another. This article tries to offer clarifications.
+
+## Functional programming
+* [Difference between `print` and `return` from a function](articles/print-and-return.md): Both `print` and `return` make objects "visible" outside the executed function, but only `return` truly returns values that can be saved for later use. Examples are provided in this article.
 
 ## Lexical scoping of R language
 This section is for advanced R users. If you are interested in more detailed mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) by Hadley Wickham. Here I provided three related questions for the materials of R Programming course.
