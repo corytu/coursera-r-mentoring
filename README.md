@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: May 28, 2018)_
+_Mentoring records and my helping articles on Coursera (Last update: September 8, 2018)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -10,6 +10,8 @@ Please note that these articles are not intended to be self-sufficient resources
 3. [R語言翻轉教室](http://datascienceandr.org) (only for Mandarin-speaking users)
 
 Besides, RStudio and R users around the world have contributed many cheatsheets which can be referred to anytime. Check [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) for them.
+
+For advanced R users. If you are interested in more detailed mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) written by Hadley Wickham, and [Advanced R Programming](https://www.coursera.org/learn/advanced-r).
 
 ## Getting started
 * [Why R but not Excel](articles/R-over-Excel.md): Here I listed some advantages of R over Excel from my point of view.
@@ -37,8 +39,11 @@ Besides, RStudio and R users around the world have contributed many cheatsheets 
 * [Difference between `print` and `return` from a function](articles/print-and-return.md): Both `print` and `return` make objects "visible" outside the executed function, but only `return` truly returns values that can be saved for later use. Examples are provided in this article.
 
 ## Lexical scoping of R language
-This section is for advanced R users. If you are interested in more detailed mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) by Hadley Wickham. Here I provided three related questions for the materials of R Programming course.
 
 * [Lexical scoping](articles/lexical-scoping.md): This article demonstrates what would happen if an object is defined not only outside but also inside the function.
 * [Constructor functions](articles/constructor-functions.md): With knowledge of lexical scoping, we are able to write a function which creates other functions.
 * [Optimizing parameters](articles/optimizing.md): Another example showing how lexical scoping can help you optimize your interested parameters.
+
+## Generic functions
+
+* [How `mean` was created](articles/how-mean-created.md): The source codes of `mean` cannot be seen by simply typing `mean` in the console. This article demonstrates how to see them.
