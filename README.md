@@ -1,5 +1,5 @@
 # Coursera R Mentoring
-_Mentoring records and my helping articles on Coursera (Last update: September 8, 2018)_
+_Mentoring records and my helping articles on Coursera (Last update: July 29, 2019)_
 
 Some questions have been raised frequently in the Coursera [R Programming](https://www.coursera.org/learn/r-programming) course forum. Here I organized those questions and collected my replies to them.
 
@@ -12,6 +12,8 @@ Please note that these articles are not intended to be self-sufficient resources
 Besides, RStudio and R users around the world have contributed many cheatsheets which can be referred to anytime. Check [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) for them.
 
 For advanced R users. If you are interested in more detailed mechanisms of R grammar, you may refer to [Advanced R](http://adv-r.had.co.nz) written by Hadley Wickham, and [Advanced R Programming](https://www.coursera.org/learn/advanced-r).
+
+BTW, for those who would like to take courses from Coursera but cannot afford the cost, I have [some suggestions (written in Mandarin)](articles/coursera-free-courses.md).
 
 ## Getting started
 * [Why R but not Excel](articles/R-over-Excel.md): Here I listed some advantages of R over Excel from my point of view.
